@@ -272,7 +272,7 @@ This is an assignment project, but suggestions and feedback are welcome!
 
 ## Contact
 
-- **Email**:ravidesai155@gmail.com
+- **Email**:ravidesai1555@gmail.com
 - **GitHub**: [ravidesai1554](https://github.com/ravidesai1554)
 - **Repository**: [kanban-component-nahorravi](https://github.com/ravidesai1554/kanban-component-nahorravi)
 
