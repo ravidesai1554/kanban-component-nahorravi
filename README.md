@@ -2,7 +2,7 @@
 
 A modern, production-grade Kanban board component built with React, TypeScript, and Tailwind CSS. Features drag-and-drop functionality, priority management, search & filtering, and responsive design.
 
-## 🚀 Live Storybook
+##Live Storybook
 
 📖 **[Storybook Stories](https://ravidesai1554.github.io/kanban-component-nahorravi)** - Interactive component documentation and examples
 
@@ -42,7 +42,7 @@ Open [http://localhost:6006](http://localhost:6006) to view Storybook stories.
 - Efficient filtering and search algorithms
 - Minimal re-renders through proper state isolation
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 - **Drag & Drop**: Native HTML5 drag-and-drop with smooth visual feedback
@@ -69,7 +69,7 @@ Open [http://localhost:6006](http://localhost:6006) to view Storybook stories.
 - Card shadows and border highlights
 - Empty state messages
 
-## 🛠 Technology Stack
+## Technology Stack
 
 - **React 18** - Modern React with hooks
 - **TypeScript** - Type-safe development
@@ -156,7 +156,7 @@ kanban-component/
         └── Index.tsx                      # Main page
 ```
 
-## 🎯 Storybook Stories
+## Storybook Stories
 
 The component includes comprehensive Storybook stories for testing and documentation:
 
@@ -174,7 +174,7 @@ Run Storybook to explore all stories:
 npm run storybook
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Development
 
@@ -202,7 +202,7 @@ npm run preview
 npm run build-storybook
 ```
 
-## 🛠️ Technologies
+## Technologies
 
 - **React 18** - Modern UI library with hooks
 - **TypeScript** - Type-safe development with strict mode
@@ -215,7 +215,7 @@ npm run build-storybook
 - **React Router** - Client-side routing
 - **Zod** - Runtime type validation
 
-## ♿ Accessibility Features
+## Accessibility Features
 
 - **ARIA Labels & Roles** - Semantic HTML and ARIA attributes
 - **Keyboard Navigation** - Full keyboard support with custom hooks
@@ -227,24 +227,24 @@ npm run build-storybook
 
 This project was built as a hiring assignment for a Frontend Developer position. Key requirements met:
 
-✅ Production-quality code architecture  
-✅ Enterprise-grade UI/UX patterns  
-✅ TypeScript with strict mode  
-✅ Tailwind CSS for styling  
-✅ Custom drag-and-drop implementation  
-✅ Responsive design  
-✅ Accessible components  
-✅ Clean component structure  
-✅ Custom hooks pattern  
-✅ Comprehensive type definitions  
-✅ Storybook for component documentation  
-✅ Organized folder structure with primitives
+Production-quality code architecture  
+Enterprise-grade UI/UX patterns  
+TypeScript with strict mode  
+Tailwind CSS for styling  
+Custom drag-and-drop implementation  
+Responsive design  
+Accessible components  
+Clean component structure  
+Custom hooks pattern  
+Comprehensive type definitions  
+Storybook for component documentation  
+ganized folder structure with primitives
 
 ### Forbidden Libraries (Not Used)
-❌ UI Component Libraries (Pre-built Kanban boards)  
-❌ CSS-in-JS (styled-components, emotion)  
-❌ Drag Libraries (react-beautiful-dnd, dnd-kit pre-built)  
-❌ Pre-built Kanban components  
+UI Component Libraries (Pre-built Kanban boards)  
+CSS-in-JS (styled-components, emotion)  
+Drag Libraries (react-beautiful-dnd, dnd-kit pre-built)  
+Pre-built Kanban components  
 
 **Note**: Shadcn UI is used as a primitive base for building custom components, which is allowed per assignment guidelines.
 
@@ -270,8 +270,9 @@ This project is part of a hiring assignment and is intended for evaluation purpo
 
 This is an assignment project, but suggestions and feedback are welcome!
 
-## 📧 Contact
+## Contact
 
+- **Email**:ravidesai155@gmail.com
 - **GitHub**: [ravidesai1554](https://github.com/ravidesai1554)
 - **Repository**: [kanban-component-nahorravi](https://github.com/ravidesai1554/kanban-component-nahorravi)
 
