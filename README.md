@@ -4,9 +4,9 @@ A modern, production-grade Kanban board component built with React, TypeScript, 
 
 ##Live Storybook
 
-📖 **[Storybook Stories](https://ravidesai1554.github.io/kanban-component-nahorravi)** - Interactive component documentation and examples
+**[Storybook Stories](https://ravidesai1554.github.io/kanban-component-nahorravi)** - Interactive component documentation and examples
 
-## 📦 Installation
+## Installation
 
 ```bash
 npm install
@@ -15,7 +15,7 @@ npm run storybook
 
 Open [http://localhost:6006](http://localhost:6006) to view Storybook stories.
 
-## 🏗️ Architecture
+## Architecture
 
 ### Custom Drag & Drop Implementation
 - **Native HTML5 API**: No external drag libraries (forbidden per requirements)
