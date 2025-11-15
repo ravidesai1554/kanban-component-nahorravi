@@ -1,8 +1,48 @@
-# Kanban Board - Task Management System
+# Kanban Board Component
 
 A modern, production-grade Kanban board component built with React, TypeScript, and Tailwind CSS. Features drag-and-drop functionality, priority management, search & filtering, and responsive design.
 
-## Features
+## 🚀 Live Storybook
+
+📖 **[Storybook Stories](https://ravidesai1554.github.io/kanban-component-nahorravi)** - Interactive component documentation and examples
+
+## 📦 Installation
+
+```bash
+npm install
+npm run storybook
+```
+
+Open [http://localhost:6006](http://localhost:6006) to view Storybook stories.
+
+## 🏗️ Architecture
+
+### Custom Drag & Drop Implementation
+- **Native HTML5 API**: No external drag libraries (forbidden per requirements)
+- **Visual Feedback**: Ghost elements, drop zones, and smooth animations
+- **State Management**: `useDragAndDrop` hook handles all drag operations
+- **Collision Detection**: Smart column detection and visual indicators
+
+### State Management Pattern
+- **useKanbanBoard**: Manages columns, tasks, CRUD operations, and filtering
+- **useDragAndDrop**: Handles drag state, source/target tracking, and animations
+- **Custom Hooks**: Separation of concerns for clean, testable code
+
+### Component Structure
+- **KanbanBoard**: Main container component
+- **KanbanColumn**: Droppable column with WIP limits
+- **KanbanCard**: Draggable task card with metadata
+- **TaskModal**: Edit/create task modal
+- **Primitives**: Reusable Button, Modal, Avatar components
+- **UI Components**: Shadcn UI base components (checkbox, dialog, etc.)
+
+### Performance Optimizations
+- React.memo for expensive components
+- useCallback for stable function references
+- Efficient filtering and search algorithms
+- Minimal re-renders through proper state isolation
+
+## ✨ Features
 
 ### Core Functionality
 - **Drag & Drop**: Native HTML5 drag-and-drop with smooth visual feedback
@@ -116,13 +156,25 @@ kanban-component/
         └── Index.tsx                      # Main page
 ```
 
-## Getting Started
+## 🎯 Storybook Stories
 
-### Installation
+The component includes comprehensive Storybook stories for testing and documentation:
 
+- **Default Board** - Standard Kanban board with sample tasks
+- **Empty State** - Board with no tasks
+- **Large Dataset** - Performance testing with 100+ tasks
+- **Mobile View** - Responsive design demonstration
+- **Interactive Playground** - Interact with all features in real-time
+- **Drag & Drop Demo** - Drag interactions and animations
+- **Task Creation** - Modal for adding new tasks
+- **Priority Filtering** - Filter by task priority
+
+Run Storybook to explore all stories:
 ```bash
-npm install
+npm run storybook
 ```
+
+## 🚀 Getting Started
 
 ### Development
 
@@ -144,44 +196,32 @@ npm run build
 npm run preview
 ```
 
-### Storybook
-
-Run Storybook for component development and documentation:
-
-```bash
-npm run storybook
-```
-
-Build Storybook for deployment:
+### Build Storybook for Deployment
 
 ```bash
 npm run build-storybook
 ```
 
-##  Key Implementation Details
+## 🛠️ Technologies
 
-### Custom Drag & Drop
-- Built with native HTML5 Drag & Drop API
-- No external drag-and-drop libraries
-- Custom visual feedback and ghost elements
-- Smooth animations during drag operations
+- **React 18** - Modern UI library with hooks
+- **TypeScript** - Type-safe development with strict mode
+- **Tailwind CSS** - Utility-first styling with custom design system
+- **Vite** - Lightning-fast build tooling
+- **Storybook 8** - Component documentation and testing
+- **date-fns** - Date manipulation and formatting
+- **Lucide React** - Beautiful SVG icons
+- **Shadcn UI** - Base UI component primitives
+- **React Router** - Client-side routing
+- **Zod** - Runtime type validation
 
-### State Management
-- Custom React hooks for clean separation of concerns
-- `useKanbanBoard` - Manages columns, tasks, and operations
-- `useDragAndDrop` - Handles drag-and-drop state
+## ♿ Accessibility Features
 
-### Performance Optimizations
-- `React.memo` for expensive components
-- `useCallback` for stable function references
-- Efficient task filtering and searching
-- Minimal re-renders
-
-### Accessibility
-- ARIA labels and roles
-- Keyboard navigation support
-- Focus management
-- Screen reader friendly
+- **ARIA Labels & Roles** - Semantic HTML and ARIA attributes
+- **Keyboard Navigation** - Full keyboard support with custom hooks
+- **Focus Management** - Logical tab order and focus trapping
+- **Screen Reader Friendly** - Proper semantic structure
+- **Color Contrast** - WCAG AA compliant color ratios
 
 ## Assignment Requirements
 
@@ -230,6 +270,9 @@ This project is part of a hiring assignment and is intended for evaluation purpo
 
 This is an assignment project, but suggestions and feedback are welcome!
 
-## Contact
+## 📧 Contact
 
-For questions about this assignment, please refer to your Internshala application details.
+- **GitHub**: [ravidesai1554](https://github.com/ravidesai1554)
+- **Repository**: [kanban-component-nahorravi](https://github.com/ravidesai1554/kanban-component-nahorravi)
+
+For questions about this project, feel free to open an issue or contact via GitHub.
